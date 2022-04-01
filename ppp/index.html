@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Genshin</title>
+</head>
+<body>
+
+<!-- Genshin -->
+
+    <section>
+    <div class="slider">
+        <div class="sliders">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="genshin1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="genshin2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="genshin3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="genshin4.jpg" alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+        
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div>
+
+    <div class="text1">
+        <h1 class="genshin">Genshin Impact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat est id illum nihil soluta quasi veniam dolorum. Cum accusantium quisquam atque nihil libero pariatur mollitia nam, laudantium vitae reiciendis in autem iusto corporis, quod voluptates distinctio non, culpa eum officiis fugiat! Similique maiores dignissimos officia voluptate? Atque laborum molestias porro non, reiciendis eveniet laudantium dolorum unde ducimus doloribus ipsa qui, repudiandae cupiditate debitis, illum quasi sequi dolore iure? Ut cumque fuga vel dolores velit dolor odio reprehenderit aspernatur, exercitationem minus voluptate laboriosam dignissimos provident fugiat, suscipit libero nihil illum, ex alias maiores a? Repellat, consequuntur. Necessitatibus, quae ducimus! Dolores atque corporis ad officiis blanditiis provident aut porro at nemo vero quos quo, in totam sed! Mollitia obcaecati asperiores, perspiciatis suscipit itaque tempore maiores quasi delectus veniam magni excepturi ea explicabo corporis fugit. Tempore quasi delectus sed quaerat minima amet voluptatum laborum, maxime nemo odit ducimus nulla, consectetur enim voluptas natus. Ullam cupiditate dolores, molestias laboriosam suscipit enim omnis repudiandae inventore est doloremque, commodi eius eveniet nemo nulla aliquid autem quia totam quis corrupti, sed necessitatibus illo veniam pariatur. Repellat earum itaque id, veritatis, rerum ab aut delectus ex dolor nemo aspernatur corporis expedita magnam ipsum dolorum molestiae! Cum deserunt natus nostrum vero aspernatur a repudiandae enim porro debitis veritatis ab sunt ipsum similique eum sed asperiores ullam laboriosam dicta necessitatibus maiores, facilis hic. Ipsum deserunt nobis perferendis maxime nam repellat atque voluptates magnam. Maxime harum, et consequuntur repudiandae recusandae quo ratione laboriosam nesciunt! Sint excepturi molestias adipisci nemo ea?</p>
+    </div>
+
+</section>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter>4){
+                counter=1;
+            }
+        }, 5000);
+    </script>
+</body>
+</html>
